@@ -15,29 +15,38 @@ Este projeto é um exercício prático para implantar uma aplicação web simple
    ```bash
    git clone https://github.com/seu-usuario/projetoDesafio.git
 - Navegue até o diretório do projeto:
-- cd projetoDesafio
+    ```bash
+    cd projetoDesafio
 - Instale as dependências (se houver):
-- npm install
+    ```bash
+    npm install
 
 ## 🚀 Uso
 - Aplique o arquivo pod-desafio.yaml para criar o Deployment:
-- kubectl apply -f pod-desafio.yaml
+    ```bash
+    kubectl apply -f pod-desafio.yaml
 - Aplique o arquivo service.yaml para criar o Service:
-- kubectl apply -f service.yaml
+    ```bash
+    kubectl apply -f service.yaml
 - Verifique se os pods estão em execução:
-- kubectl get pods
+    ```bash
+    kubectl get pods
 - Verifique o Service e obtenha o endereço IP e a porta:
-- kubectl get svc
+    ```bash
+    kubectl get svc
 - Acesse a aplicação web através do endereço IP e porta fornecidos pelo Service.
 
 ## 🤝 Contribuição
 -  Faça um fork do projeto.
 - Crie uma nova branch:
-- git checkout -b minha-nova-feature
+    ```bash
+    git checkout -b minha-nova-feature
 - Faça suas alterações e commit:
-- git commit -m 'Adiciona nova feature'
+    ```bash
+    git commit -m 'Adiciona nova feature'
 - Envie para o branch original:
-- git push origin minha-nova-feature
+    ```bash
+    git push origin minha-nova-feature
 - Crie um Pull Request.
 
 ## 📄 Licença
